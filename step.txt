@@ -1,0 +1,7 @@
+- Bikin div atas, score, logo
+
+-bikin background tengah
+
+-buat button, styles
+
+-buat Rules
