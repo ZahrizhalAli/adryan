@@ -276,10 +276,15 @@ body {
     width : 70%;
     height : 20%;
   }
-  .pick-result-scissors, .pick-result-paper , .pick-result-rock {
+  .pick-result-scissors, .pick-result-paper {
     bottom : -270px;
     left : 30px;
     padding : 15px 20px;
+  }
+  .pick-result-rock {
+    bottom : -270px;
+    left : 30px;
+    padding : 20px;
   }
   .house-result-scissors, .house-result-paper {
     bottom : -270px;
