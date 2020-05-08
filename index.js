@@ -1,6 +1,8 @@
 var scores = 0;
 $('.middle-container').fadeIn();
 $('.result-container').css('display', 'none');
+$('.you').text('KAMU');
+$('.enemy').text('LAWAN');
 for (var i = 0; i < document.querySelectorAll(".spr").length; i++) {
   document.querySelectorAll(".spr")[i].addEventListener("click", function() {
 
@@ -117,5 +119,8 @@ document.querySelector("button").addEventListener("click", function() {
 
   $('.result-container').fadeOut();
   $('.middle-container').fadeIn().css('display', 'flex');
+  $('.pick').removeClass('pick-result-scissors pick-result-paper pick-result-rock');
+  $('.house').removeClass('house-result-scissors house-result-paper house-result-rock');
+
 
 });
