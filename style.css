@@ -281,12 +281,16 @@ body {
     left : 30px;
     padding : 15px 20px;
   }
-  .house-result-scissors, .house-result-rock, .house-result-paper {
+  .house-result-scissors, .house-result-paper {
     bottom : -270px;
     right : 30px;
-    padding : 20px;
+    padding : 15px 20px;
   }
-
+.house-result-rock {
+  bottom : -270px;
+  right : 30px;
+  padding : 20px;
+}
   .rules {
     display: none;
   }
@@ -308,7 +312,7 @@ body {
   }
   .rock {
     padding : 20px;
-    left : 60px;
+    margin : 0 50%;
   }
 
 }
